@@ -1,0 +1,117 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft Yahei";
+	background-color: rgb(222, 222, 222);
+}
+/*header css start*/
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #000;
+}
+img{
+	margin: 10px 0 10px 40px;
+}
+nav{
+	width: 500px;
+	height: 50px;
+	float: right;
+	margin-top: 10px;
+}
+nav li{
+		float: left;
+		margin-right: 30px;
+		list-style: none;
+	}
+nav li a{
+	color: #fff;
+	text-decoration: none;
+}
+/*content css start*/
+.content{
+	overflow: auto;
+}
+.rightContent{
+	width: 600px;
+	/*height: 600px;*/
+	float: right;
+	margin: 20px;
+	background-color: #fff;
+	/*border: 1px solid #000;*/
+	/*box-shadow: 0 2px 2px 0;*/
+}
+.personMessage{
+	padding: 20px;
+}
+.rightContent h2{
+	border-left: 2px solid #000;
+	padding-left: 20px;
+}
+form {
+	width: 500px;
+}
+form label{
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+	margin-right: 10px;
+}
+form span{
+	font-size: 14px;
+	color: #a9a9a9;
+}
+form textarea{
+	width: 230px;
+}
+form button{
+	width: 400px;
+	line-height: 40px;
+	background-color: #0788ff;
+	border:none;
+	border-radius: 5px;
+	margin-left: 60px;
+	font-size: 18px;
+	color:#fff;
+}
+.leftContent{
+	margin: 0 0 30px 20px;
+	overflow: auto;
+}
+.leftContent article{
+	background-color: #fff;
+	padding: 30px 20px;
+	margin:20px auto;
+	box-shadow: 2px 2px 3px #aaaaaa;
+}
+.leftContent h1,h2{
+	text-align: center;
+}
+.leftContent ul{
+	list-style: none;
+}
+.img img{
+	width: 100px;
+	height: 100px;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+th{
+	background-color: #000;
+	color: #fff;
+}
+td{
+	text-indent: 5px;
+}
+.total{
+	background-color: gray;
+}
+footer{
+	height: 50px;
+	background-color: #000;
+	color: #fff;
+	text-align: center; 
+	line-height: 50px;
+}
